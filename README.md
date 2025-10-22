@@ -28,8 +28,9 @@ Las siguientes librerías deben instalarse en tu entorno de desarrollo:
 - WiFi (incluida en ESP32)
 - WebServer (incluida en ESP32)
 - Wire (incluida en ESP32)
-- ThingSpeak
 ```
+
+> **Nota importante:** Aunque el código incluye `#include <ThingSpeak.h>`, esta librería **NO se usa** en la implementación actual. El proyecto envía datos a ThingSpeak usando peticiones HTTP manuales, lo cual es más educativo y permite mayor control.
 
 ### Instalación de Librerías en PlatformIO
 
@@ -275,4 +276,3 @@ Si tienes preguntas o sugerencias, no dudes en abrir un issue en el repositorio.
 
 ---
 
-**¡Disfruta de tu estación meteorológica IoT! 🌤️**
